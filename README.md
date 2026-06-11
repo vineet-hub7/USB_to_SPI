@@ -24,10 +24,6 @@ PC (USB) ──> RP2040 (SPI Master) ──> FPGA (Slave → Master) ──> Ard
 
 > FPGA bitstream is the same across all boards.
 
-## Hardware Setup
-
-![Hardware Setup](images/hardware_setup.jpeg)
-
 ### Wiring
 
 Connect the FPGA master-side SPI outputs to the Arduino SPI slave pins:
