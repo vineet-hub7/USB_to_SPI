@@ -128,7 +128,3 @@ The Verilog design has three modules:
 ## Extra Scripts
 
 - `firmware/micropython/finalusb.py` — Standalone SPI loopback test that runs directly on the RP2040. Sends a few bytes over SPI and checks that the FPGA echoes them back correctly. Useful for verifying the FPGA bitstream without a PC host connection.
-
-## License
-
-MIT
