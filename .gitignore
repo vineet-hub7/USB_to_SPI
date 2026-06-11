@@ -1,0 +1,22 @@
+# Build artifacts
+ffpga/build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude / AI
+.claude/
