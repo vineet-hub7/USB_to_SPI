@@ -108,7 +108,6 @@ The Verilog design has three modules:
 | `top`        | `top.v`          | Glue logic — connects slave RX to master TX    |
 | `spi_target` | `spi_target.v`   | SPI slave — receives from RP2040               |
 | `spi_master` | `top.v`          | SPI master — forwards to external MCU          |
-| `echo_test`  | `echo_test.v`    | Standalone echo test (slave-only, for debug)    |
 
 ### Pin Mapping (FPGA)
 
