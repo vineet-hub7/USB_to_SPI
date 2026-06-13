@@ -28,14 +28,13 @@ PC (USB) ──> RP2040 (SPI Master) ──> FPGA (Slave → Master) ──> Ard
 
 Connect the FPGA master-side SPI outputs to the Arduino SPI slave pins:
 
-| FPGA Signal | FPGA GPIO | Arduino Pin | Wire Color (photo) |
-| ----------- | --------- | ----------- | ------------------ |
-| m_sck       | GPIO8     | SCK (13)    | Blue               |
-| m_mosi      | GPIO9     | MOSI (11)   | Orange             |
-| m_ss_n      | GPIO10    | SS (10)     | Black              |
-| m_miso      | GPIO15    | MISO (12)   | Orange             |
-| GND         | GND       | GND         | Black              |
-
+| FPGA Signal | FPGA GPIO | Arduino Pin | 
+| ----------- | --------- | ----------- |
+| m_sck       | GPIO8     | SCK (13)    |
+| m_mosi      | GPIO9     | MOSI (11)   |
+| m_ss_n      | GPIO10    | SS (10)     |
+| m_miso      | GPIO15    | MISO (12)   |
+| GND         | GND       | GND         |
 > **Note:** The RP2040-to-FPGA SPI link uses the fixed Shrike-Lite pins (SCK=GP2, CS=GP1, MOSI=GP3, MISO=GP0) and requires no external wiring.
 
 ### Level Shifting
